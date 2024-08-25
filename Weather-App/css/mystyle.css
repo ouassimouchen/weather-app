@@ -1,0 +1,28 @@
+*{
+    border-radius: 50px;
+
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    background:rgb(235, 232, 232);
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+}
+.container{
+    max-width: 500px;
+}
+
+.alert{
+    visibility: hidden;
+}
+
+.icon{
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+ h1 {
+     color: black;
+ }

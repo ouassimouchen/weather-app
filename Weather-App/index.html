@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather App</title>
+    <link
+      href="data:image/x-icon;base64,YourBase64StringHere"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link rel="icon" type="image/x-icon" href="./fqv.ico">
+    <link
+      href="https://fonts.googleapis.com/css?family=Prompt:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/mystyle.css" />
+  </head>
+
+  <body>
+    <div class="container my-5 mx-auto">
+      <h1 class="text-muted text-center my-4 text-dark">Weather App</h1>
+      <form
+        class="change-location my-4 text-center text-muted"
+        autocomplete="off"
+      >
+        <label for="city">Enter a city for weather forecast</label>
+        <input type="text" name="city" class="form-control p-4" style="border-radius: 10px;"/>
+        <div id="alert" class="alert alert-danger"></div>
+      </form>
+      <div class="card shadow-lg rounded d-none">
+        <img
+          src="https://via.placeholder.com/400x300"
+          class="time card-img-top"
+        />
+        <div class="icon bg-light mx-auto text-center">
+          <img src="" />
+        </div>
+        <div class="text-muted text-uppercase text-center details">
+          <h5 class="my-3">City name</h5>
+          <div class="my-3">Weather condition</div>
+          <div class="display-4 my-4">
+            <span>temp</span>
+            <span>&deg;C</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <p class="text-center py-4">YASSIN CHIDMI , OUASSIM OUCCHEN , SAAD ELMOUNGHANIZISSSSS , YOUSSEF JABBOUR @ <span id="year"></span></p>
+      </div>
+    </div>
+    <script src="scripts/forecast.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/validator.js"></script>
+    <script src="scripts/year.js"></script>
+  </body>
+</html>
